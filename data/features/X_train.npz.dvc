@@ -1,0 +1,6 @@
+outs:
+- md5: ec87a183f02b341a0d726a2db5b9776b
+  size: 29401750
+  isexec: true
+  hash: md5
+  path: X_train.npz

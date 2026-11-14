@@ -1,0 +1,32 @@
+[project]
+name = "news-classifier"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "mtalaat", email = "mo7amedtal3at21@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "dvc>=3.67.1",
+    "mlflow>=3.18.0",
+    "numpy>=2.5.4",
+    "pandas>=3.1.1",
+    "python-dotenv>=1.2.4",
+    "requests>=2.34.2",
+    "scikit-learn>=1.9.1",
+]
+
+[project.scripts]
+news-classifier = "news_classifier:main"
+
+[build-system]
+requires = ["uv_build>=0.13.8,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.7.0",
+    "pytest>=9.2.0",
+    "ruff>=0.17.5",
+]

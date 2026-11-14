@@ -1,0 +1,6 @@
+outs:
+- md5: 4822c3d638ee6cd6bc350e487f7fff24
+  size: 17835899
+  isexec: true
+  hash: md5
+  path: ag_news_train.parquet

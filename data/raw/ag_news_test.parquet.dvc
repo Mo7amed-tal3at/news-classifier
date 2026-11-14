@@ -1,0 +1,6 @@
+outs:
+- md5: 2dbc8d50ebc9528a9a6f72a8baef9144
+  size: 1197533
+  isexec: true
+  hash: md5
+  path: ag_news_test.parquet

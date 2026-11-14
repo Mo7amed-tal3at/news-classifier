@@ -12,7 +12,22 @@ build/
 # DVC
 /data/raw/
 /data/processed/
-/data/features/
+/data/features/*.npz
+/data/features/*.joblib
+/data/features/*.parquet
+/data/features/.cache/*.npz
+/data/features/*.npz
+/data/features/*.joblib
+/data/features/*.parquet
+/data/features/.cache/*.joblib
+/data/features/*.npz
+/data/features/*.joblib
+/data/features/*.parquet
+/data/features/.cache/*.parquet
+/data/features/*.npz
+/data/features/*.joblib
+/data/features/*.parquet
+/data/features/.cache/.cache/
 
 # MLflow
 mlruns/
@@ -32,3 +47,4 @@ Thumbs.db
 # IDE
 .vscode/
 .idea/
+data/features/.cache/

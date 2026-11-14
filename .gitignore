@@ -10,7 +10,9 @@ build/
 .python-version
 
 # DVC
-/data/raw/
+/data/raw/*.parquet
+/data/raw/*.csv
+/data/raw/*.json
 /data/processed/
 /data/features/
 
